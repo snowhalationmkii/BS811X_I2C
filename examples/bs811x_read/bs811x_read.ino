@@ -44,10 +44,10 @@ void loop()
       Serial.println("Key 12 is pressed！");
     }
 
-    if (bs8116.getKey_risingedge(2)) {
+    if (bs8116.getKey_edge(1, 2)) {
         Serial.println("Key 2 rising edge detected！");
     }
-    else if (bs8116.getKey_fallingedge(2)) {
+    else if (bs8116.getKey_edge(2, 2)) {
         Serial.println("Key 2 falling edge detected！");
     }
 
