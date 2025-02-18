@@ -43,12 +43,9 @@ public:
     // Return true if a key is pressed
     // param key Number of key
     bool getKey_passive(uint8_t key);
-    // Return true if a rising edge is detected
-    // param key Number of key
-    bool getKey_risingedge(uint8_t key);
-    // Return true if a falling edge is detected
-    // param key Number of key
-    bool getKey_fallingedge(uint8_t key);
+    // Return true if a edge is detected
+    // param edge direction/1/2, key Number of key
+    bool getKey_edge(uint8_t direction, uint8_t key) ;
     // Return true if the initialize process has been a success
     // param chip type
     bool begin(String chip);

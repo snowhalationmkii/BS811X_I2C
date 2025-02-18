@@ -70,14 +70,11 @@ bool BS811X::getKey_passive(uint8_t key)
     return bitRead(_keys, key-1);
 }
 
-bool BS811X::getKey_risingedge(uint8_t key) 
+bool BS811X::getKey_edge(uint8_t direction, uint8_t key) 
 {
-    return !bitRead(_prev_state, key-1) && bitRead(_keys, key-1);
-}
-
-bool BS811X::getKey_fallingedge(uint8_t key) 
-{
-    return bitRead(_prev_state, key-1) && !bitRead(_keys, key-1);
+    if(direction == 1){ return !bitRead(_prev_state, key-1) && bitRead(_keys, key-1); }
+    else if (direction == 2) { return bitRead(_prev_state, key-1) && !bitRead(_keys, key-1); }
+    else { return false; }
 }
 
 bool BS811X::begin(String chip)
