@@ -42,7 +42,7 @@ BS811X setting is very different from TTP229. It's through writing to the settin
 By default，KEY `16|12` are used for `IRQ`.So you should change the setting for  `Key Mode` to enable all  `16|12` touch keys.\
 However, this operation has already been included in the method `begin` so you may do nothing about that.\
 <img src="https://p.sda1.dev/22/347373bb7b4b73f693a3d7355c450031/bs81164.jpg">\
-If you want to have your own settings, you may check this table.\
+If you want to have your own settings, you may check this table.
 
 ## Reference
 The implementation of some methods make a reference from [Alexander Kiryanenko](https://github.com/kiryanenko/TTP229).
