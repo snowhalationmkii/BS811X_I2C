@@ -40,7 +40,7 @@ param chip type `"8116"/"8112"`
 ## Setting
 BS811X setting is very different from TTP229. It's through writing to the setting register of BS811X.\
 By default，KEY `16|12` are used for `IRQ`.So you should change the setting for  `Key Mode` to enable all  `16|12` touch keys.\
-However, this operation has already been included in the method `begin` so you may do nothing about that.\
+However, this operation has already been included in the method `begin` so you may need to do nothing about that.\
 <img src="https://p.sda1.dev/22/347373bb7b4b73f693a3d7355c450031/bs81164.jpg">\
 If you want to have your own settings, you may check this table.
 
