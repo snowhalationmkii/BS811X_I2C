@@ -10,7 +10,7 @@ First you should connect chip I2C port to Arduino I2C port.\
 In this project I made a little evaluation pcb board like this.\
 It can pinout the chip and you can easily connect and touch the pin.\
 <img src="https://p.sda1.dev/22/6218041ae19225e7db8a5dd80f6f0a67/bs81163.jpg">\
-Then you shall open the `examples/bs811x_read.ino`, Upload it, Check serail port monitor\
+Then you shall open the `examples/bs811x_read.ino`, Upload it, Check serail port monitor
 
 ## Method
 - `uint16_t readKeys();`\
