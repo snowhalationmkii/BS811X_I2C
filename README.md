@@ -28,7 +28,7 @@ predefined in "_settings"
 Return number of first pressed key.
 return `0` if none key is pressed
 - `bool getKey_passive(uint8_t key);`\
-Return true if a key is pressed
+Return true if a key is pressed.
 param key Number of a key
 - `bool getKey_edge(uint8_t direction, uint8_t key) ;`\
 Return true if a edge is detected.
