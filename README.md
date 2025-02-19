@@ -8,7 +8,7 @@ BS811X series use a two wire I2C port to send touch status.In above picture, the
 First you should connect chip I2C port to Arduino I2C port.\
 <img src="https://docs.arduino.cc/static/5f90596512320d9577cfa9638fdb6115/a6d36/wiring.png">\
 In this project I made a little evaluation pcb board like this.\
-It can pinout the chip and you can easily connect and touch the pin.\
+It can pinout the chip and you can easily connect and touch pins.\
 <img src="https://p.sda1.dev/22/6218041ae19225e7db8a5dd80f6f0a67/bs81163.jpg">\
 Then you shall open the `examples/bs811x_read.ino`, Upload it, Check serail port monitor
 
