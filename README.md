@@ -1,6 +1,7 @@
 # BS811X_I2C
 An Arduino IDE based library used for BS811X series touch key I2C communication.\
-Compatible with Holtek BS8116/BS8112 touch key chips which use I2C port to send touch key status.
+Compatible with Holtek BS8116/BS8112 touch key chips which use I2C port to send touch key status.\
+BS81X serial library see [this](https://github.com/snowhalationmkii/TTP229_BS81X_Serial).
 
 ## Instruction
 <img src="https://p.sda1.dev/22/f76c19cdd6ce67ed42ffd01f1fcd1108/bs81162.jpg">\
